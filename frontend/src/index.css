@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* scroll-snap-type: y mandatory; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* h1 {
+  font-family: cursive, emoji;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
+  color: #fdfdfe;
+  color: rgb(249, 135, 14);
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+
+  vertical-align: middle;
+
+} */
+
+
+/* h1:hover {
+  background: rgb(144, 230, 239);
+  color: #fdfdfe;
+} */
+
+.myDiv {
+  background-color: #091e3b;
+  background-color: #102845;
+
+  @media only screen and (max-width: 767px) {
+    &:nth-child(1) {
+      display: none;
+    }
+
+    &:nth-child(2) {
+      display: block;
+      -webkit-mask-image: none;
+    }
+  }
+
+}
+
+/* 
+h2 {
+  line-height: 26pt;
+  font-family: cursive;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 300;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: blink 3s linear infinite;
+  animation: text 6s steps(35) infinite alternate;
+  border-right: 1px solid #b393d3;
+}
+
+
+@keyframes text {
+
+  0% {
+    width: 0ch;
+  }
+
+  50% {
+    width: 35ch;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+h2:hover {
+  background: rgb(144, 230, 239);
+  color: rgb(57, 1, 147);
+}
+
+h3 {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 300;
+  color: #35a1ef41;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate {
+
+  0%,
+  15%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+      0px 0px 20px #b393d3;
+  }
+
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #03f45f,
+      0 0 20px #03f45f,
+      0 0 40px #03f45b,
+      0 0 80px #03f45f,
+      0 0 160px #03f45f;
+  }
+}
+
+ */
+
+/* 
+h3:hover {
+  background: rgb(144, 230, 239);
+  color: rgb(53, 132, 4);
+}
+
+.common-heading {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #380868, 0px 0px 10px #6507c2, 0px 0px 10px #b393d3,
+    0px 0px 20px #5f11ad;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: blink 3s linear infinite;
+  animation: text 6s steps(35) infinite alternate;
+
+
+
+}
+
+@keyframes text {
+
+  0% {
+    width: 0ch;
+  }
+
+  50% {
+    width: 35ch;
+  }
+} */
+
+/* body {
+  overflow: hidden;
+} */
+
+/* body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8b4513;
+  border-radius: 1rem;
+} */
+
+body {
+  /* Hide the scrollbar */
+  overflow-y: scroll;
+}
+
+/* Style the scrollbar */
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 2px;
+  border: 1px solid #555;
+} */
